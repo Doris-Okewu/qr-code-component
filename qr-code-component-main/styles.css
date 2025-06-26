@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  background-color: white;
+  background-image: radial-gradient(
+      circle at top left,
+      #f1f5f9 20%,
+      transparent 20%
+    ),
+    radial-gradient(circle at bottom right, #f1f5f9 20%, transparent 20%);
+  background-size: 200px 250px;
+  font-family: "Outfit", sans-serif; /* Google font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Full viewport height */
+}
+
+.container {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%; /* Full viewport height */
+  padding: 20px;
+  border-radius: 16px;
+  text-align: center;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.card {
+  background-color: white;
+  max-width: 375px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 16px;
+}
+h1 {
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 15px;
+  width: 90%;
+  text-align: end;
+}
+p {
+  color: hsl(216, 15%, 48%);
+  font-size: 15px;
+  text-align: center;
+  font-weight: 400;
+}
+img {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+}
+
+.class-content {
+  position: relative;
+  top: -16px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
