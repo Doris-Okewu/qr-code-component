@@ -6,8 +6,7 @@
   padding: 0;
 }
 
-body,
-html {
+body {
   background-color: white;
   background-image: radial-gradient(
       circle at top left,
@@ -20,12 +19,15 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%; /* Full viewport height */
+  min-height: 100vh; /* Full viewport height */
+  padding: 20px;
+  background-position: top right;
 }
 
 .container {
   background-color: hsl(212, 45%, 89%);
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 80%; /* Full viewport height */
@@ -45,14 +47,16 @@ html {
   margin: 0 auto;
   padding: 20px;
   border-radius: 16px;
+  cursor: zoom-in;
 }
+
 h1 {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   padding-top: 15px;
   width: 90%;
-  text-align: end;
+  text-align: center;
 }
 p {
   color: hsl(216, 15%, 48%);
@@ -75,6 +79,7 @@ img {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: 20px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
