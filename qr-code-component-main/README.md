@@ -5,7 +5,7 @@ I built this as part of my frontend development learning journey and to practice
 
 ## 📸 Screenshot
 
-![Design Screenshot](./images/image-qr-code.png)
+![Design Screenshot](./images/screenshot.png)
 
 ## Live Site
 
